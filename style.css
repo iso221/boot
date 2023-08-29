@@ -1,0 +1,23 @@
+
+.reduire{
+    width: 100%;
+}
+.row .card{
+    padding: 10px;
+    margin: 10px;
+}
+footer .end{
+    text-align: end;
+}
+footer .none{
+    margin-left: 20px;
+}
+footer, a{
+    text-decoration: none;
+}
+i{
+    width: 50px;
+}
+footer{
+    background-color: beige;
+}

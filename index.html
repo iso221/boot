@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="py-4">
+        <nav class=" navbar navbar-expand-md navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand text-uppercase fw-bold" href="#" >
+                    <span class="bg-gradient p-1 rounded-3 text-primary">John</span>Doe
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01">
+                  <a class="navbar-brand" href="#moi">Qui suis-je ?</a>
+                  <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#expertise">Expertise</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#contact">Contact</a>
+                    </li>
+                  </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="presentation">
+        <div class="container">
+            <div class="row mt-5 align-items-center" id="moi">
+                <div class="col-sm-12 offset-md-1 col-md-5">
+                    <h2 class="fw-bold">Lorem ipsum dolor sit amet.</h2>
+                    <h6 class="fw-ligth">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, dignissimos.</h6>
+                    <button class="btn btn-success rounded-0 mt-5">Mon Expertise Web</button>
+                </div>
+                <div class="col-sm-12 col-md-5">
+                    <img src="img/moi.jpeg" alt="une photo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="expertise" class="py-5 bg-light">
+        <div class="container" id="expertise>
+          <h2 class="mb-0">Mon Expertise</h2>
+          <h3 class="fw-light fs-5">Developpement Web et Design</h3>
+          <div class="row gy-4 mt-4">
+            <div class="col-12 col-md-7">
+              <div class="row align-items-center">
+                <div class="bg-white p-3 d-flex">
+                  <div class="col-5 col-sm-4 col-md-3 col-xl-2">
+                    <div class="d-flex justify-content-center">
+                      <i class="fa-brands fa-html5 fa-2x me-2 text-primary"></i>
+                      <p class="fw-bold m-0">HTML 5</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="bg-white p-3 d-flex">
+                  <div class="col-5 col-sm-4 col-md-3 col-xl-2">
+                    <div class="d-flex justify-content-center">
+                      <i class="fa-brands fa-css3 fa-2x me-2 text-primary"></i>
+                      <p class="fw-bold m-0">CSS 3</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="bg-white p-3 d-flex">
+                  <div class="col-5 col-sm-4 col-md-3 col-xl-2">
+                    <div class="d-flex justify-content-center">
+                      <i class="fa-brands fa-html5 fa-2x me-2 text-primary"></i>
+                      <p class="fw-bold m-0">PhotoShop</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="bg-white p-3 d-flex">
+                  <div class="col-5 col-sm-4 col-md-3 col-xl-2">
+                    <div class="d-flex justify-content-center">
+                      <i class="fa-brands fa-html5 fa-2x me-2 text-primary"></i>
+                      <p class="fw-bold m-0">Illustrator</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 offset-md-1 col-md-4">
+              <img class="reduire" src="img/code.jpeg" alt="">
+            </div>
+          </div>
+          <div class="row gy-4 mt-4">
+            <div class="col-12 col-md-4">
+              <img class="reduire" src="img/design.jpeg" alt="">
+            </div>
+            <div class="col-12 offset-md-1 col-md-7">
+              <div class="row">
+                <div class="bg-white p-3 d-flex">
+                  <div class="col-5 col-sm-4 col-md-3 col-xl-2">
+                    <div class="d-flex justify-content-center">
+                      <i class="fa-brands fa-html5 fa-2x me-2 text-primary"></i>
+                      <p class="fw-bold m-0">HTML 5</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="bg-white p-3 d-flex">
+                  <div class="col-5 col-sm-4 col-md-3 col-xl-2">
+                    <div class="d-flex justify-content-center">
+                      <i class="fa-brands fa-html5 fa-2x me-2 text-primary"></i>
+                      <p class="fw-bold m-0">CSS 3</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="bg-white p-3 d-flex">
+                  <div class="col-5 col-sm-4 col-md-3 col-xl-2">
+                    <div class="d-flex justify-content-center">
+                      <i class="fa-brands fa-html5 fa-2x me-2 text-primary"></i>
+                      <p class="fw-bold m-0">PhotoShop</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="bg-white p-3 d-flex">
+                  <div class="col-5 col-sm-4 col-md-3 col-xl-2">
+                    <div class="d-flex justify-content-center">
+                      <i class="fa-brands fa-html5 fa-2x me-2 text-primary"></i>
+                      <p class="fw-bold m-0">Illustrator</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="troisieme">
+        <div class="container" id="portfolio">
+          <h1>Mon Portfolio</h1>
+          <h4>Projet perso et pro</h4>
+            <div class="row my-5 espace">
+              <div class="card-group">
+                <div class="card">
+                  <img src="img/Projet1.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <a href="#" class="btn btn-primary">En savoir plus</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="img/projet2.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary mt-5">En savoir plus</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="img/projet3.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <a href="#" class="btn btn-primary">En savoir plus</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="img/projet4.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <a href="#" class="btn btn-primary">En savoir plus</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <section class="disc">
+      <div class="container mt-5">
+        <h1>Un Projet de creation web ?</h1>
+        <h4>Allons en discuter autour d'un cafe</h4>
+            <div class="row g-0 mt-5 mb-5">
+              <div class="col-md-5">
+                <img src="img/grab-a-coffee.jpeg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-6 offset-md-1">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <label for="prenom" class="form-label">Prenom</label>
+                      <input type="text" id="prenom" class="form-control" placeholder="">
+                    </div>
+                    <div class="col">
+                      <label for="prenom" class="form-label">Nom</label>
+                      <input type="text" id="prenom" class="form-control" placeholder="">
+                    </div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Email Address</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 mt-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="d-grid mt-3">
+                      <a href="#" class="btn btn-primary">Envoyer</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+    </section>
+
+
+    <main>
+      <footer class="border-top">
+        <div class="container py-5" id="contact">
+          <div class="row gy-4">
+            <div class="col-12 col-md-4">
+              <a class="navbar-brand text-uppercase fw-bold" href="#" >
+                <span class="bg-gradient p-1 rounded-3 text-primary">John</span>Doe
+            </a>
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="#">A propos de moi</a>
+            </div>
+            <div class="col-12 col-md-4">
+              <ul class="end">
+                  <i class="fa-brands fa-linkedin"></i>
+                </li>
+                  <i class="fa-brands fa-square-x-twitter"></i>
+                </li>
+                  <i class="fa-brands fa-square-instagram"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
