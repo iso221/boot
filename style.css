@@ -2,22 +2,23 @@
 .reduire{
     width: 100%;
 }
+.espace{
+    padding-right: 30px;
+    padding-left: 0;
+}
 .row .card{
     padding: 10px;
     margin: 10px;
 }
 footer .end{
-    text-align: end;
-}
-footer .none{
-    margin-left: 20px;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 0px 0px;
 }
 footer, a{
     text-decoration: none;
+    color: black;
 }
 i{
     width: 50px;
-}
-footer{
-    background-color: beige;
 }
